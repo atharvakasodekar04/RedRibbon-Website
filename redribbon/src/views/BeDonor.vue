@@ -24,7 +24,7 @@
                     <!-- Right Section -->
                     <div class="rightSection">
 
-                        <h2>To How to <span style="color:#EB3738">Donate Blood?</span></h2><br>
+                        <h2>How to <span style="color:#EB3738">Donate Blood?</span></h2><br>
                         
                         <p>RedRibbon has two Approaches to donate blood. First you can donate blood whenever the person is in urgent need or you can donate blood at blood donation camps.</p> <br>
 
