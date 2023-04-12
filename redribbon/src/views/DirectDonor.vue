@@ -211,6 +211,7 @@ export default {
             this.showTable = true;
 
             const response = await axios.get('https://redribbon-backend.onrender.com/api/all-form-data');
+            console.log(response)
             this.users = response.data;
             
             console.log(this.users);

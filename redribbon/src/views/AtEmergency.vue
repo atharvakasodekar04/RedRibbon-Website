@@ -142,7 +142,7 @@ import FooterFile from '@/views/FooterFile.vue'
           this.showSuccessMessage = true;
           
         } catch (e) {
-        console.log(e);
+        console.log(e.message);
         }
       },
     },
