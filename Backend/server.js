@@ -7,7 +7,7 @@ const cors = require("cors");
 
 
 const app = express();
-const PORT = "https://redribbon-backend.onrender.com";
+const PORT = "https://redribbon-backend.onrender.com" || 3000;
 
 app.use(express.json());
 app.use(bodyParser.json());
