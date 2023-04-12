@@ -16,6 +16,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
 mongoose.connect("mongodb+srv://atharvakasodekar:Atharvak123@cluster0.o3vlyyi.mongodb.net/Redribbon", {
+  dbName: "Redribbon",
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })

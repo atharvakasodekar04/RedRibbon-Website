@@ -210,8 +210,7 @@ export default {
             // fetch data and populate table
             this.showTable = true;
 
-            const response = await axios.get('https://redribbon-backend.onrender.com/api/all-form-data');
-            console.log(response)
+            const response = await axios.get('http://localhost:3000/api/all-form-data');
             this.users = response.data;
             
             console.log(this.users);

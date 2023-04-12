@@ -125,7 +125,7 @@ import FooterFile from '@/views/FooterFile.vue'
         };
         try {
           const res = await axios.post(
-            "https://redribbon-backend.onrender.com/api/form-data",
+            "http://localhost:3000/api/form-data",
             formData
           );
           console.log(res);
@@ -142,7 +142,7 @@ import FooterFile from '@/views/FooterFile.vue'
           this.showSuccessMessage = true;
           
         } catch (e) {
-        console.log(e.message);
+        console.log(e);
         }
       },
     },
